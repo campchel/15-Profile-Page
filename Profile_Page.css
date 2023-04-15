@@ -1,28 +1,140 @@
+*{
+    margin:0;
+    Padding:0;
+}
+
+a{
+    text-decoration:none;
+    color: orange;
+}
 .navbar{
-    
+    background-color: black;
+    height:50px;
+    width: auto;
+    display: flex;
 }
-#profileRunner{
-
+.nav-title{
+    color: yellow;
+    margin-right: 150px;
+    padding-right: 400px;
+    margin-left: 50px;
 }
-.profile{
-
+.nav-links{
+    gap:50px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
 }
-#educationRunner{
-
+#btn{
+    justify-content: right;
+    margin-left: 100px;
+    background-color: teal;
+    color: lightgray;
+    box-shadow: 5px 2px aquamarine;
 }
-#connectionRequestsRunner{
-
+.container{
+    display:flex;
+    height: 1200px;
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    gap: 50px;
 }
-#yourConnectionsRunner{
-    
+.col-L{
+    background-color: white;
+    flex: 2;
 }
-.education{
-
+.col-R{
+    flex: 1;
+    background-color: white;
 }
-.connectionRequests{
-
+.Profile{
+    background-color: white;
+    border: 3px solid teal;
+    height: 300px;
+    margin-top: 50px;
 }
-
-.yourConnections{
-
+.profileRunner{
+    height: 75px;
+    background-color: teal;
+}
+.avatar{
+    height: 70px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.profileBody h2,
+.profileBody h4,
+.profileBody p{
+    margin: 20px 10px;
+    font-family: cursive, sans-serif;
+}
+.profileBody img,
+.ConnectionRequests img{
+    height: 20px
+}
+.Education{
+    background-color: white;
+    border: 3px solid orange;
+    height: 100px;
+    margin-top: 25px;
+    font-family: cursive, sans-serif;
+}
+.Education h3,
+.Education h5{
+    padding-left: 25px;
+}
+.educationRunner{
+    font-family: cursive, sans-serif;
+    height: 30px;
+    background-color: orange;
+    padding-left: 15px;
+}
+.ConnectionRequests{
+    background-color: white;
+    border: 3px solid yellow;
+    height: 150px;
+    margin-top: 50px;
+    font-family: cursive, sans-serif;
+}
+.ConnectionRequestsRunner{
+    font-family: cursive, sans-serif;
+    background-color: yellow;
+    height:35px;
+    padding-left: 30px;
+}
+.ConnectionRequestsRunner img{
+    height: 29px;
+    margin-left: -15px; 
+    padding-right: 50px;
+}
+.ConnectionRequests .avatar{
+    height: 30px;
+    padding-right: 40px;
+}
+.ConnectionRequsts img{
+    height: 2px;
+}
+.YourConnections{
+    background-color: white;
+    border: 3px solid slategray;
+    height: 255px;
+    margin-top: 25px;
+    font-family: cursive, sans-serif;
+}
+.YourConnectionsRunner{
+    font-family: cursive, sans-serif;
+    background-color: slategray;
+    height:35px;
+}
+.YourConnectionsRunner img{
+    height: 30px;
+    padding-right: 60px;
+    padding-left: 15px;
+}
+.YourConnections .avatar{
+    height: 30px;
+    padding-right: 40px;
 }

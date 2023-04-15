@@ -5,65 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Page</title>
-    <link rel="stylesheet" href="Profile_Page.css">
-
-    
+    <Link rel="stylesheet" href="./Profile_Page.css">
 </head>
 <body>
     <div class="navbar">
-        <btn class="Profile"></btn>
-        <btn class="Home"></btn>
-        <btn class="My Profile"></btn>
-        <btn class="Find Connections"></btn>
-        <btn class="sign out"></btn>
+        <h1 class="nav-title">Profile</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">My Profile</a></li>
+            <li><a href="#">Find Connections</a></li>
+            <li><button id="btn">Sign Out</button></li>
+        </ul>
+    </div>
 
+    <div class="container">
+        <div class="col-L">
+            <div class="Profile">
+                <div class="profileRunner">
+                    <img id="user" src="./Static/electra.jpg" alt="electra" class="avatar">
+                </div>
+                <div class="profileBody">
+                    <h2>Chelsey Campbell</h2>
+                    <h4>
+                        <img class="pinpoint" src="./Static/map-marker.png" alt="pin">
+                        Blackfoot, Idaho
+                    </h4>
+                    <p>Software Engineer | Full-Stack Developer | Teacher<br>
+                    Villianous Master | Horse Whisperer | Dog Whisperer</p>
+                    <p>
+                        <a href="#">
+                            <img class="gear" src="./Static/gear.png" alt="gear">
+                            edit profile
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="Education">
+                <div class="educationRunner">
+                    <p>Education</p>
+                </div>
+                <h3>Coding Dojo-Full Stack Bootcamp</h3>
+                <h5>-April 2023 - July 2023</h5>
+            </div>
+        </div>
+        <div class="col-R">
+            <div class="ConnectionRequests">
+                <div class="ConnectionRequestsRunner">
+                    <img class="two" src="./Static/teal+number+2.png" alt="requests">
+                    Connection Requests
+                </div>
+                <img id="user1" src="./Static/blackpanther.jpg" alt="colby" class="avatar">
+                Colby D
+                <img id="accept" src="./Static/accept-circle.png" alt="check">
+                <img id="decline" src="./Static/close-circle.png" alt="X">
+                <img id="user2" src="./Static/blackwidow.jpg" alt="shilaga" class="avatar">
+                Shilaga S
+                <img id="accept" src="./Static/accept-circle.png" alt="check">
+                <img id="decline" src="./Static/close-circle.png" alt="X">
+            </div>
+            <div class="YourConnections">
+                <div class="YourConnectionsRunner">
+                    <img class="two" src="./Static/Number-Twenty-20.png" alt="requests" >
+                    Your Connections
+                </div>
+                <img id="user3" src="./Static/hulk.jpg" alt="mohammed" class="avatar">
+                Mohammed A
+                <img id="user4" src="./Static/wonderwoman.jpg" alt="stefanie" class="avatar">
+                Stefanie D
+                <img id="user5" src="./Static/ironman.jpg" alt="diego" class="avatar">
+                Diego G
+                <img id="user6" src="./Static/catwoman.jpg" alt="winter" class="avatar">
+                Winter P
+            </div>
+
+        </div>
 
     </div>
-    <div class="profile">
-        <div id="profileRunner"></div>
-        <img class="user1" src="electra.jpg" alt="user1">
-        <p>Chelsey Campbell</p>
-        <img class="pinpoint" src="map-marker.png" alt="location">
-        <p>Blackfoot, Idaho</p>
-        <img class="gear" src="gear.png" alt="edit">
-        <a href="?">edit profile</a>
 
-    </div>
-    <div class="education">
-        <div id="educationRunner"></div>
-            <p>Education</p>
-        <p>Coding Dojo- Full Stack Bootcamp
-            April 2023-July 2023
-            Red Belt in Programming Basics
-        </p>
-
-    </div>
-    <div class="connectionRequests">
-        <div id="connectionRequestsRunner"></div>
-            <p>Connection Requests</p>
-        <img class="user2" src="blackwidow.jpg" alt="user2">
-        <p>Shilaga S</p>
-        <img class="check" src="accept-circle.png" alt="check">
-        <img class="equal" src="close-circle.png" alt="equal">
-        <img class="user3" src="blackpanther.jpg" alt="user3">
-        <p>Mohammed A</p>
-        <img class="check" src="accept-circle.png"  alt="check">
-        <img class="equal" src="close-circle.png" alt="equal">
-    </div>
-    <div class="yourConnections">
-        <div id="yourConnectionsRunner"></div>
-            <p>Your Connections</p>
-        <img class="user4" src="wonderwoman.jpg" alt="user4">
-        <p>Stefanie D</p>
-        <img class="user5" src="catwoman.jpg" alt="user5">
-        <p>Winter P</p>
-        <img class="user6" src="hulkjpg" alt="user6">
-        <p>Colby D</p>
-        <img class="user7" src="ironman.jpg" alt="user7">
-        <p>Diego G</p>
-        <div class="bottom"></div>
-            <a href="?">view more</a>
-
-    </div>
 </body>
+
 </html>
